@@ -1,0 +1,229 @@
+@font-face {
+	font-family: Effloresce;
+    src: url("EFFLORES.ttf");
+}
+
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("./pildid/taust.jpg");
+    padding-left: 10px;
+}
+h1 {
+	font-family: Effloresce;
+	font-size: 50px;
+    margin-top: 0px;
+    text-align: center;   
+}
+.main-div {
+    display: flex;
+}
+.button-div {
+    font-family: Verdana;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.button-link {
+    color: black;
+    padding-right: 30px;
+    text-decoration: none
+}
+.second-column-div {
+    margin-left: 50px;
+    font-family: Verdana;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-left: 120px;
+}
+
+.social-media-buttons-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.contact-info-div {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.social-media-img {
+    width: 85px;
+    height: 85px;
+}
+#map {
+    height: 250px;
+    width: 500px;
+}
+.slider {
+    width: 600px;
+    height: 350px;
+    background-color: yellow;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 120px;
+    text-align: center;
+    overflow: hidden;
+}
+    
+.image-holder {
+    width: 2500px;
+    background-color: red;
+    height: 450px;
+    clear: both;
+    position: relative;
+    
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+    
+.slider-image {
+    width: 600px;
+    height: 350px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+    
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder {
+    left: -600px;
+}
+
+#slider-image-3:target ~ .image-holder {
+    left: -1200px;
+}
+
+#slider-image-4:target ~ .image-holder {
+    left: -1800px;
+}
+
+.button-holder {
+    position: relative;
+    top: -480px;
+}
+
+.slider-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-right: -500px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%
+    width: auto;
+    margin-top: -20px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0
+    user-select: none;
+}
+
+.next {
+    right: 60px;
+    border-radius: 3px 0 0 px;
+}
+
+.prev:hover, next:hover {
+    background-color: black;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 35px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Effloresce;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+  }
+  
+.menu {
+    color: black;
+}
+
+.menu:hover {
+    background-color: purple;
+    color: white;
+}
+
+.people {
+    color: black;
+}
+
+.people:hover {
+    background-color: purple;
+    color: white
+}
+
+.contact {
+    color: black
+}
+
+.contact:hover {
+    background-color: purple;
+    color: white
+}

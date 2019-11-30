@@ -1,0 +1,111 @@
+@font-face {
+	font-family: Effloresce;
+    src: url("EFFLORES.ttf");
+}
+
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("./pildid/taust.jpg");
+    padding-left: 10px;
+}
+h1 {
+	font-family: Effloresce;
+	font-size: 50px;
+    margin-top: 0px;
+    text-align: center; 
+}
+.main-div {
+    display: flex;
+}
+.button-div {
+    font-family: Verdana;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.button-link {
+    color: black;
+    padding-right: 30px;
+    text-decoration: none
+}
+.second-column-div {
+    margin-left: 50px;
+    font-family: Verdana;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-left: 120px;
+}
+
+.social-media-buttons-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.contact-info-div {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.social-media-img {
+    width: 85px;
+    height: 85px;
+}
+
+.kontaktinfo {
+    font-family: Verdana;
+    font-size: 27px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.button-holder {
+    position: relative;
+    top: -480px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 35px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Effloresce;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+  }
+  
+.menu {
+    color: black;
+}
+
+.menu:hover {
+    background-color: purple;
+    color: white;
+}
+
+.people {
+    color: black;
+}
+
+.people:hover {
+    background-color: purple;
+    color: white
+}
+
+.contact {
+    color: black
+}
+
+.contact:hover {
+    background-color: purple;
+    color: white
+}

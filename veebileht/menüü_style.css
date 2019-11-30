@@ -81,32 +81,34 @@ a {
     display: flex;
     justify-content: space-evenly;
     top: 20%;
-    left: 30px;
+    margin-left: 50px;
     position: absolute;
 }
 .pilt_2 {
     display: flex;
     justify-content: space-evenly;
     top: 70%;
-    left: -700px;
+    margin-left: -210%;
     position: absolute;
 }
 .pilt_3 {
     display: flex;
     justify-content: space-evenly;
     top: 80%;
-    left: 700px;
+    margin-left: 230%;
     position: absolute;
 }
 .pilt_4 {
     display: flex;
     justify-content: space-evenly;
     top: 70%;
-    left: 700px;
+    margin-left: 210%;
     position: absolute;
 }
 img {
     height: 290px;
     width: auto;
     border-radius: 600px;
+    position: relative;
+    float: left;
 }

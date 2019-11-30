@@ -81,28 +81,28 @@ a {
     display: flex;
     justify-content: space-evenly;
     top: 20%;
-    margin-left: 50px;
+    margin-left: 20px;
     position: absolute;
 }
 .pilt_2 {
     display: flex;
     justify-content: space-evenly;
     top: 70%;
-    margin-left: -210%;
+    margin-left: -170%;
     position: absolute;
 }
 .pilt_3 {
     display: flex;
     justify-content: space-evenly;
     top: 80%;
-    margin-left: 230%;
+    margin-left: 200%;
     position: absolute;
 }
 .pilt_4 {
     display: flex;
     justify-content: space-evenly;
     top: 70%;
-    margin-left: 210%;
+    margin-left: 200%;
     position: absolute;
 }
 img {
